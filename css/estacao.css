@@ -1,0 +1,55 @@
+/* --------------------------- *\
+			ESTACAO
+\* --------------------------- */
+
+.estacao {
+	height: 300px;
+	background-color: var(--color-principal);
+
+	position: relative;
+	z-index: 500;
+
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+}
+
+.estacao-titulo {
+	color: var(--color-white);
+	margin: 0;
+	margin-left: var(--espaciado-normal);
+	line-height: 1.6em;
+	letter-spacing: 0.02em;
+}
+
+.estacao-titulo span {
+	color: var(--color-secundario);
+	font-size: 2.4em;
+	letter-spacing: 0.05em;
+	line-height: 1em;
+}
+
+.estacao-titulo p {
+	font-size: 1em;
+	text-align: center;
+}
+
+.estacao-imagen-container {
+	width: 100%;
+	height: inherit;
+	margin: 0;
+
+	position: relative;
+}
+
+.estacao-imagen {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+}
+
+.estacao-border-imagen {
+	border-top: 300px solid var(--color-principal);
+	border-right: 25px solid transparent;
+	position: absolute;
+}
